@@ -29,8 +29,6 @@
    php artisan key:generate
 </p>
 <hr>
-
-<hr>
 <p>
   php artisan migrate
 </p>
