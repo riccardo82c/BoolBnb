@@ -10,6 +10,36 @@
 	<li>MySql</li>
 	<li>and... BrainTree for payment, Chart.js, TomTom Maps SDK, Handlebars</li>
 </ul>
+
+<h2>Installation</h2>
+<p>
+    composer install
+</p>
+<hr>
+<p>
+    npm install
+</p>
+<hr>
+<p>
+   cp .env.example .env
+</p>
+
+<hr>
+<p>
+   php artisan key:generate
+</p>
+<hr>
+
+<hr>
+<p>
+  php artisan migrate
+</p>
+<hr>
+<p>
+  php artisan db:seed
+    (must change fzaninotto/faker images cause link to img are deprecated)
+</p>
+<hr>
 <h3>Inside .env file add: </h3>
 <h6>Db Connection</h6>
 <p> DB_CONNECTION=mysql</p>
